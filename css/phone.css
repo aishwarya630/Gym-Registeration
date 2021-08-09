@@ -2,6 +2,8 @@
 
 #navbar {
     flex-direction: column;
+    position: fixed;
+    z-index: 999;
 }
 
 
@@ -53,7 +55,7 @@
 /* Form */
 
 .form {
-    margin: 61px 5px;
+    margin: 167px 5px;
     padding: 9px;
     justify-content: center;
     float: left;
